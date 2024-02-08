@@ -62,15 +62,27 @@ mvn test
 
 Se agregaron los archivos para el front, los ".html", "css/.css" y "js/.js". Además se agregó la opción de poder buscar imágenes del servidor. Las imágenes se encuentran en la carpeta "img". El código HTML estaba principalmente en la clase MovieClient, por lo que la misma clase MovieClient generaba el cuerpo de las páginas, por lo que se modificó MovieClient para que obtenga los archivos .html, .css, .js, .png y .jpg para así obtener el contenido de cada archivo para luego volverlos texto plano o bytes según el tipo de archivo que fuera.
 
-## Casos de Prueba
+### Casos de Prueba
 
+  ## Caso de Prueba: Buscar películas
+  ingresar a la URL http://localhost:35000 y buscar la película en el buscador
+  
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/ada73271-ef1b-4c70-ae89-23a692f3af05)
 
+  ## Caso de prueba: Buscar imágenes
+    ingresar a la URL http://localhost:35000/img/(imágen).jpg o .png
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/f2d14b35-b9ad-44fb-9b73-ce31a9b7a56a)
 
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/6bd4aead-5edb-409c-acb1-074a40bef437)
 
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/890b3cdd-90df-4077-a105-3b4de41d9833)
+
+  ## Caso de prueba: Buscar archivos tipo css o js
+    ingresar a la URL http://localhost:35000/css/(archivo).css
+![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/999fc892-eb96-441e-9cf3-1186a1239b02)
+
+    ingresar a la URL http://localhost:35000/js/(archivo).js
+![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/1852ce67-7e48-41d3-bb1a-6dd845339e6a)
 
 ## DESARROLLADO CON
 
