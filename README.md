@@ -62,6 +62,8 @@ mvn test
 
 Se agregaron los archivos para el front, los ".html", "css/.css" y "js/.js". Además se agregó la opción de poder buscar imágenes del servidor. Las imágenes se encuentran en la carpeta "img". El código HTML estaba principalmente en la clase MovieClient, por lo que la misma clase MovieClient generaba el cuerpo de las páginas, por lo que se modificó MovieClient para que obtenga los archivos .html, .css, .js, .png y .jpg para así obtener el contenido de cada archivo para luego volverlos texto plano o bytes según el tipo de archivo que fuera.
 
+## Casos de Prueba
+
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/ada73271-ef1b-4c70-ae89-23a692f3af05)
 
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/f2d14b35-b9ad-44fb-9b73-ce31a9b7a56a)
