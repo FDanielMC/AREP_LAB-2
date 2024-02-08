@@ -175,8 +175,8 @@ public class MovieClient {
      * @return 
      */
     private static String getBodyFile(String fileName) {
-        Path file = (fileName.equals("/")) ? Paths.get("target/classes/public/Browser.html")
-                : Paths.get("target/classes/public" + fileName);
+        Path file = (fileName.equals("/")) ? Paths.get("src/resources/public/Browser.html")
+                : Paths.get("src/resources/public" + fileName);
         StringBuilder outputLine = new StringBuilder();
         Charset charset = Charset.forName("UTF-8");
         try (BufferedReader reader = Files.newBufferedReader(file, charset)) {
@@ -198,7 +198,7 @@ public class MovieClient {
      * @return 
      */
     public static byte[] getImage(String pathFile){
-        Path file = Paths.get("target/classes/public" + pathFile);
+        Path file = Paths.get("src/resources/public" + pathFile);
         byte[] imageData = null;
         try {
             imageData = Files.readAllBytes(file);
