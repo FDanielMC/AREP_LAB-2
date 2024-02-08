@@ -23,6 +23,8 @@ Usando el siguiente comando se genera la documentación del proyecto y para acce
 ```
 mvn site
 ```
+En caso que no aparezcan el JAVADOC luego de haber ejecutado ese comando se puede hacer mediante NETBEANS:
+![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/c8aee78f-38c4-4a63-ad28-016ee38f8598)
 
 ### DESCRIPCION DEL PROYECTO
 
