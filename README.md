@@ -24,6 +24,7 @@ Usando el siguiente comando se genera la documentación del proyecto y para acce
 mvn site
 ```
 En caso que no aparezcan el JAVADOC luego de haber ejecutado ese comando se puede hacer mediante NETBEANS:
+
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/c8aee78f-38c4-4a63-ad28-016ee38f8598)
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/839db2ca-8927-4eb3-b217-057808a54ed0)
 
@@ -71,6 +72,7 @@ Se agregaron los archivos para el front, los ".html", "css/.css" y "js/.js". Ade
 
   ## Caso de prueba: Buscar imágenes
     ingresar a la URL http://localhost:35000/img/(imágen).jpg o .png
+    
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/f2d14b35-b9ad-44fb-9b73-ce31a9b7a56a)
 
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/6bd4aead-5edb-409c-acb1-074a40bef437)
@@ -79,9 +81,11 @@ Se agregaron los archivos para el front, los ".html", "css/.css" y "js/.js". Ade
 
   ## Caso de prueba: Buscar archivos tipo css o js
     ingresar a la URL http://localhost:35000/css/(archivo).css
+    
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/999fc892-eb96-441e-9cf3-1186a1239b02)
 
     ingresar a la URL http://localhost:35000/js/(archivo).js
+    
 ![image](https://github.com/FDanielMC/AREP_LAB-2/assets/123689924/1852ce67-7e48-41d3-bb1a-6dd845339e6a)
 
 ## DESARROLLADO CON
